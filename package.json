@@ -7,8 +7,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon backend/server.js"
+  "test": "echo \"No tests configured; skipping tests.\"",
+  "start": "node backend/server.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
